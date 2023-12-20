@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+br {
+    height: 1px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bulb {
+    margin: 0;
+    height: 200px;
+    width: 200px;
+}
+
+.opportunities-heading {
+    margin: 0;
+    text-align: center;
+}
+
+.opportunities-text {
+    color: #000;
+    text-align: center;
+    text-shadow: 6px 9px 4px #0276FF40;
+    font-family: 'Outfit', sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.left-main-container {
+    padding: 2rem;
+    margin-left: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+}
+
+.opportunity-card {
+    padding: 1rem 2rem;
+    margin: 2rem 1rem;
+    background: linear-gradient(180deg, rgb(193, 223, 196) 0%, rgb(222, 236, 221) 100%);
+    border-radius: 2.2rem;
+    box-shadow: 0.6rem 0.6rem 0.3rem #00000040;
+    height: auto;
+    width: 120%;
+}
+
+.opportunity-card-upper {
+    display: flex;
+    align-items: center;
+}
+
+.opportunity-card-upper .designation {
+    margin: 0;
+}
+
+.opportunity-card-hr {
+    width: 100%;
+}
+
+.opportunity-card-lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opportunity-card-lower p {
+    font-weight: bold;
+}
+
+.opportunity-card-lower button {
+    font-size: 0.8rem;
+    font-weight: bold;
+    height: 2rem;
+    width: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 4px #00000040;
+    padding: 0 18px;
+}
+
+.professor-img {
+    border-radius: 100%;
+}
+
+.professor-info {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.vertical-hr {
+    margin-left: 12rem;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.right-main-container {
+    margin-left: 1.5rem;
+}
+
+.react-calendar {
+    border: none !important;
+    margin: 0.2rem;
+}
+
+.upcoming-card {
+    display: flex;
+    margin: 2rem 0;
+    align-items: start;
+}
+
+.upcoming-card p {
+    margin: 0;
+}
+
+.week-preview {
+    margin: 3.5rem 0;
+}
+
+.event-poster {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    background: linear-gradient(180deg, rgba(97, 255, 0, 0.75) 4.86%, rgba(255, 199, 0, 0.75) 100%);
+    box-shadow: 1px 4px 4px #00000040;
+    border-radius: 50%;
+}
+
+.event-title {
+    font-weight: bold;
+}
+
+.event-details {
+    font-size: 0.9rem;
+}
+
+.pagination {
+    border-top: 1px solid #ccc;
+    width: 85%;
+    margin: 1rem auto 0.1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.inner-pagination {
+    display: flex;
+    align-items: center;
+}
+
+.inner-pagination div {
+    padding: 0.6rem 1rem;
+    border-radius: 20%;
+    color: #667085;
+    font-size: 0.8rem;
+}
+
+.inner-pagination .selected {
+    margin-top: 0.28rem;
+    margin-bottom: 0.28rem;
+    background: #EAECF0;
+    color: #985ACE;
+}
+
+.pagination .flex-item {
+    margin-left: 30%;
+}
+

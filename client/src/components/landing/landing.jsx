@@ -19,7 +19,8 @@ function Landing() {
                     quo consequuntur ullam ea saepe voluptate voluptates sed officiis temporibus fuga deserunt! Laboriosam perspiciatis ut dolorum at?'
                         link='/chapters' />
                     <Card title='Blog' content='Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolorum labore laborum omnis, quo consequuntur ullam ea saepe voluptate voluptates sed officiis temporibus fuga deserunt! Laboriosam perspiciatis ut dolorum at?' />
-                    <Card title='Opportunities' content='Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolorum labore laborum omnis, quo consequuntur ullam ea saepe voluptate voluptates sed officiis temporibus fuga deserunt! Laboriosam perspiciatis ut dolorum at?' />
+                    <Card title='Opportunities' content='Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolorum labore laborum omnis, quo consequuntur ullam ea saepe voluptate voluptates sed officiis temporibus fuga deserunt! Laboriosam perspiciatis ut dolorum at?'
+                        link='/opportunities' />
                 </div>
             </div>
             <Footer />
